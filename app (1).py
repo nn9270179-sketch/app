@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Assuming df is already loaded from '/content/swiggy (1).csv'
 # If running this as a standalone script, you would load it here:
-df = pd.read_csv('/content/swiggy (1).csv')
+df = pd.read_csv('swiggy (1).csv')
 
 # Set page configuration
 st.set_page_config(page_title='Swiggy Data Dashboard', page_icon=':curry:', layout='wide')
